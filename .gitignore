@@ -1,7 +1,8 @@
-.DS_STORE
-*.log
-
+# Dependency directory
 node_modules
 
-dist
-coverage
+# Source maps
+*.js.map
+
+# Files marked with gitigx
+*gitigx*
