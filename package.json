@@ -1,11 +1,11 @@
 {
-  "name": "spa-github-pages",
-  "description": "Single Page Apps for GitHub Pages",
+  "name": "workout",
+  "description": "A standalone workout webapp to install on your smartphone 💪",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "url": "git+https://github.com/YannBertrand/Workout.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Yann Bertrand <github@yann-bertrand.fr>",
   "license": "MIT",
   "dependencies": {
     "current-input": "^0.1.0",

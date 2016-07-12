@@ -26872,7 +26872,7 @@
 	    });
 	  }
 
-	  var repoLink = 'https://github.com/rafrex/spa-github-pages';
+	  var repoLink = 'https://github.com/YannBertrand/Workout';
 
 	  return _react2.default.createElement(
 	    'div',
@@ -26880,12 +26880,12 @@
 	    _react2.default.createElement(
 	      'h1',
 	      null,
-	      'Single Page Apps for GitHub Pages'
+	      'Workout'
 	    ),
 	    _react2.default.createElement(
 	      'a',
 	      { href: repoLink },
-	      'https://github.com/rafrex/spa-github-pages'
+	      'GitHub'
 	    ),
 	    _react2.default.createElement(
 	      'nav',
@@ -26898,13 +26898,8 @@
 	      { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } },
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'http://www.rafaelpedicini.com', className: 'extended-link' },
-	        'Code and concept by ',
-	        _react2.default.createElement(
-	          'span',
-	          { className: 'link-style' },
-	          'Rafael Pedicini'
-	        )
+	        { href: 'http://yann-bertrand.fr', className: 'extended-link' },
+	        'Yann Bertrand'
 	      )
 	    )
 	  );
