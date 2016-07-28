@@ -97,6 +97,18 @@
 	  history: _reactRouter.browserHistory,
 	  routes: routes
 	}), document.getElementById('root'));
+	
+	// Initialize app
+	var myApp = new Framework7();
+	
+	// If we need to use custom DOM library, let's save it to $$ variable:
+	var $$ = Dom7;
+	
+	// Add view
+	var mainView = myApp.addView('.view-main', {
+	  // Because we want to use dynamic navbar, we need to enable it for this view:
+	  dynamicNavbar: true
+	});
 
 /***/ },
 /* 1 */
@@ -27585,32 +27597,108 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    _react2.default.createElement(
-	      'h1',
-	      null,
-	      'Workout'
-	    ),
-	    _react2.default.createElement(
-	      'a',
-	      { href: repoLink },
-	      'GitHub'
-	    ),
-	    _react2.default.createElement(
-	      'nav',
-	      null,
-	      generateMapMenu()
-	    ),
-	    children,
+	    _react2.default.createElement('div', { className: 'statusbar-overlay' }),
+	    _react2.default.createElement('div', { className: 'panel-overlay' }),
 	    _react2.default.createElement(
 	      'div',
-	      { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } },
+	      { className: 'panel panel-left panel-reveal' },
 	      _react2.default.createElement(
-	        'a',
-	        { href: 'http://yann-bertrand.fr', className: 'extended-link' },
-	        'Yann Bertrand'
+	        'div',
+	        { className: 'content-block' },
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Left panel content goes here'
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'views' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'view view-main' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'navbar' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'navbar-inner' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'center sliding' },
+	              'Workout 💪'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'right' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: '#', className: 'link icon-only open-panel' },
+	                _react2.default.createElement('i', { className: 'icon icon-bars' })
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'pages navbar-through toolbar-through' },
+	          _react2.default.createElement(
+	            'div',
+	            { 'data-page': 'index', className: 'page' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'page-content' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: repoLink },
+	                'GitHub'
+	              ),
+	              _react2.default.createElement(
+	                'nav',
+	                null,
+	                generateMapMenu()
+	              ),
+	              children,
+	              _react2.default.createElement(
+	                'div',
+	                { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } },
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'http://yann-bertrand.fr', className: 'extended-link' },
+	                  'Yann Bertrand'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'toolbar' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'toolbar-inner' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#', className: 'link' },
+	              'Link 1'
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#', className: 'link' },
+	              'Link 2'
+	            )
+	          )
+	        )
 	      )
 	    )
 	  );
+	  /*<h1>Workout</h1>
+	      <nav>
+	        {generateMapMenu()}
+	      </nav>
+	      {children}
+	      */
 	}
 	
 	App.propTypes = propTypes;
