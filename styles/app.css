@@ -6,3 +6,13 @@ html {
 #root, #root > div {
     height: 100%;
 }
+
+.navbar, .toolbar, .subnavbar {
+    background: #473E6B;
+    color: #ffffff;
+}
+
+.page {
+    background: #2C2844;
+    color: #ffffff;
+}
