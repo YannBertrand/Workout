@@ -7,7 +7,7 @@ html {
     height: 100%;
 }
 
-.navbar, .toolbar, .subnavbar {
+.statusbar-overlay, .navbar, .toolbar, .subnavbar {
     background: #473E6B;
     color: #ffffff;
 }
