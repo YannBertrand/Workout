@@ -9,16 +9,16 @@ function Home() {
 
   return (
     <div>
-      <div className="navbar no-border">
-        <div className="navbar-inner">
-          <div className="left">
-            <a href="#" className="link icon-only open-panel"><i className="icon icon-hamburger"></i></a>
-          </div>
-        </div>
-      </div>
-      <div className="pages navbar-through toolbar-through">
+      <div className="pages">
         <div data-page="index" className="page">
           <div className="page-content">
+            <div className="navbar no-border">
+              <div className="navbar-inner">
+                <div className="left">
+                  <a href="#" className="link icon-only open-panel"><i className="icon icon-hamburger"></i></a>
+                </div>
+              </div>
+            </div>
             <div className="content-block">
               <p className="center">
                 Hello Eddie! Things looks alright.<br />

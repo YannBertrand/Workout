@@ -27665,30 +27665,30 @@
 	    null,
 	    _react2.default.createElement(
 	      'div',
-	      { className: 'navbar no-border' },
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'navbar-inner' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'left' },
-	          _react2.default.createElement(
-	            'a',
-	            { href: '#', className: 'link icon-only open-panel' },
-	            _react2.default.createElement('i', { className: 'icon icon-hamburger' })
-	          )
-	        )
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'pages navbar-through toolbar-through' },
+	      { className: 'pages' },
 	      _react2.default.createElement(
 	        'div',
 	        { 'data-page': 'index', className: 'page' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'page-content' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'navbar no-border' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'navbar-inner' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'left' },
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '#', className: 'link icon-only open-panel' },
+	                  _react2.default.createElement('i', { className: 'icon icon-hamburger' })
+	                )
+	              )
+	            )
+	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'content-block' },
