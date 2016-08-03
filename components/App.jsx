@@ -47,10 +47,10 @@ function App({ children, routes }) {
         <div className="view view-main">
           <div className="navbar">
             <div className="navbar-inner">
-              <div className="center sliding">Workout 💪</div>
-              <div className="right">
+              <div className="left">
                 <a href="#" className="link icon-only open-panel"><i className="icon icon-bars"></i></a>
               </div>
+              <div className="center sliding">Workout 💪</div>
             </div>
           </div>
           <div className="pages navbar-through toolbar-through">
