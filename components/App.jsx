@@ -45,36 +45,10 @@ function App({ children, routes }) {
 
       <div className="views">
         <div className="view view-main">
-          <div className="navbar">
-            <div className="navbar-inner">
-              <div className="left">
-                <a href="#" className="link icon-only open-panel"><i className="icon icon-hamburger"></i></a>
-              </div>
-              <div className="center sliding">Workout 💪</div>
-            </div>
-          </div>
-          <div className="pages navbar-through toolbar-through">
-            <div data-page="index" className="page">
-              <div className="page-content">
-                <a href={repoLink}>GitHub</a>
-                <nav>
-                  {generateMapMenu()}
-                </nav>
-                {children}
-                <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
-                  <a href="http://yann-bertrand.fr" className="extended-link">
-                    Yann Bertrand
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="toolbar">
-            <div className="toolbar-inner">
-              <a href="#" className="link">Link 1</a>
-              <a href="#" className="link">Link 2</a>
-            </div>
-          </div>
+          {children}
+          <nav>
+            {generateMapMenu()}
+          </nav>
         </div>
       </div>
     </div>

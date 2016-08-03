@@ -6,8 +6,29 @@ const propTypes = {
 };
 
 function ExampleComponent({ children }) {
+  let nav;
+  if (children) {
+    nav = (
+      <nav>
+        <span><Link to="/">Home</Link> / </span>
+        <span><Link to="/example">Example</Link> / </span>
+        <span><Link to="/example/two-deep?field1=foo&field2=bar#boom!">
+          Example two deep with query and hash
+        </Link></span>
+      </nav>
+    );
+  } else {
+    nav = (
+      <nav>
+        <span><Link to="/">Home</Link> / </span>
+        <span><Link to="/example">Example</Link></span>
+      </nav>
+    );
+  }
+
   return (
-    <div>
+    <div className="content-block">
+      {nav}
       <p>
         This is an example page. Refresh the page or copy/paste the url to
         test out the redirect functionality (this same page should load

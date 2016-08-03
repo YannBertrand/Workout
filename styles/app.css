@@ -3,22 +3,36 @@ html {
   color: white;
 }
 
-#root, #root > div {
-    height: 100%;
+#root, #root > div, #root div.view > div {
+  height: 100%;
 }
 
 body {
-    font-family: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-body, .statusbar-overlay, .navbar, .toolbar, .subnavbar {
-    background: #473E6B;
-    color: #ffffff;
+body, .statusbar-overlay, .toolbar, .subnavbar, .navbar, .page {
+  background: #2C2844;
+  color: #ffffff;
 }
 
-.page {
-    background: #2C2844;
-    color: #ffffff;
+div.content-block {
+  font-family: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+
+div.content-block > div.content-block-inner {
+  background-color: #473E6B;
+  color: #ffffff;
+}
+
+div.content-block > div.content-block-inner:before,
+div.content-block > div.content-block-inner:after {
+  background-color: black;
+}
+
+.center {
+  text-align: center;
 }
 
 i.icon.icon-hamburger {

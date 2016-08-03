@@ -27618,77 +27618,11 @@
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'view view-main' },
+	        children,
 	        _react2.default.createElement(
-	          'div',
-	          { className: 'navbar' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'navbar-inner' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'left' },
-	              _react2.default.createElement(
-	                'a',
-	                { href: '#', className: 'link icon-only open-panel' },
-	                _react2.default.createElement('i', { className: 'icon icon-hamburger' })
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'center sliding' },
-	              'Workout 💪'
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'pages navbar-through toolbar-through' },
-	          _react2.default.createElement(
-	            'div',
-	            { 'data-page': 'index', className: 'page' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'page-content' },
-	              _react2.default.createElement(
-	                'a',
-	                { href: repoLink },
-	                'GitHub'
-	              ),
-	              _react2.default.createElement(
-	                'nav',
-	                null,
-	                generateMapMenu()
-	              ),
-	              children,
-	              _react2.default.createElement(
-	                'div',
-	                { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } },
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'http://yann-bertrand.fr', className: 'extended-link' },
-	                  'Yann Bertrand'
-	                )
-	              )
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'toolbar' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'toolbar-inner' },
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#', className: 'link' },
-	              'Link 1'
-	            ),
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#', className: 'link' },
-	              'Link 2'
-	            )
-	          )
+	          'nav',
+	          null,
+	          generateMapMenu()
 	        )
 	      )
 	    )
@@ -27730,64 +27664,130 @@
 	    'div',
 	    null,
 	    _react2.default.createElement(
-	      'p',
-	      null,
-	      'This is an example single page app built with ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: reactLink },
-	        'React'
-	      ),
-	      ' and ',
-	      ' ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: reactRouterLink },
-	        'React Router'
-	      ),
-	      ' using ',
-	      ' ',
-	      _react2.default.createElement(
-	        'code',
-	        null,
-	        'browserHistory'
-	      ),
-	      '. Navigate with the links below and refresh the page or copy/paste the url to test out the redirect functionality deployed to overcome ',
-	      ' ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: ghPagesLink },
-	        'GitHub Pages'
-	      ),
-	      ' incompatibility with single page apps (like this one).'
-	    ),
-	    _react2.default.createElement(
-	      'p',
-	      null,
-	      'Please see the ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: repoReadmeLink },
-	        'repo readme'
-	      ),
-	      ' for instructions on how to use this boilerplate to deploy your own single page app using GitHub Pages.'
-	    ),
-	    _react2.default.createElement(
 	      'div',
-	      null,
+	      { className: 'navbar no-border' },
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/example' },
-	        'Example page'
+	        'div',
+	        { className: 'navbar-inner' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'left' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: '#', className: 'link icon-only open-panel' },
+	            _react2.default.createElement('i', { className: 'icon icon-hamburger' })
+	          )
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
 	      'div',
-	      null,
+	      { className: 'pages navbar-through toolbar-through' },
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/example/two-deep?field1=foo&field2=bar#boom!' },
-	        'Example two deep with query and hash'
+	        'div',
+	        { 'data-page': 'index', className: 'page' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'page-content' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'content-block' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'center' },
+	              'Hello Eddie! Things looks alright.',
+	              _react2.default.createElement('br', null),
+	              'Are you ready to rock?'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'content-block' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'content-block-inner' },
+	              'Here comes another text block additionaly wrapped with "content-block-inner". Praesent nec imperdiet diam. Maecenas vel lectus porttitor, consectetur magna nec, viverra sem. Aliquam sed risus dolor. Morbi tincidunt ut libero id sodales. Integer blandit varius nisi quis consectetur. '
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'content-block' },
+	            _react2.default.createElement(
+	              'nav',
+	              null,
+	              _react2.default.createElement(
+	                'span',
+	                null,
+	                _react2.default.createElement(
+	                  _reactRouter.Link,
+	                  { to: '/' },
+	                  'Home'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'This is an example single page app built with ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: reactLink },
+	                'React'
+	              ),
+	              ' and ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: reactRouterLink },
+	                'React Router'
+	              ),
+	              ' using ',
+	              ' ',
+	              _react2.default.createElement(
+	                'code',
+	                null,
+	                'browserHistory'
+	              ),
+	              '. Navigate with the links below and refresh the page or copy/paste the url to test out the redirect functionality deployed to overcome ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: ghPagesLink },
+	                'GitHub Pages'
+	              ),
+	              ' incompatibility with single page apps (like this one).'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Please see the ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: repoReadmeLink },
+	                'repo readme'
+	              ),
+	              ' for instructions on how to use this boilerplate to deploy your own single page app using GitHub Pages.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              null,
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/example' },
+	                'Example page'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              null,
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/example/two-deep?field1=foo&field2=bar#boom!' },
+	                'Example two deep with query and hash'
+	              )
+	            )
+	          )
+	        )
 	      )
 	    )
 	  );
@@ -27866,9 +27866,71 @@
 	function ExampleComponent(_ref) {
 	  var children = _ref.children;
 	
+	  var nav = void 0;
+	  if (children) {
+	    nav = _react2.default.createElement(
+	      'nav',
+	      null,
+	      _react2.default.createElement(
+	        'span',
+	        null,
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/' },
+	          'Home'
+	        ),
+	        ' / '
+	      ),
+	      _react2.default.createElement(
+	        'span',
+	        null,
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/example' },
+	          'Example'
+	        ),
+	        ' / '
+	      ),
+	      _react2.default.createElement(
+	        'span',
+	        null,
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/example/two-deep?field1=foo&field2=bar#boom!' },
+	          'Example two deep with query and hash'
+	        )
+	      )
+	    );
+	  } else {
+	    nav = _react2.default.createElement(
+	      'nav',
+	      null,
+	      _react2.default.createElement(
+	        'span',
+	        null,
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/' },
+	          'Home'
+	        ),
+	        ' / '
+	      ),
+	      _react2.default.createElement(
+	        'span',
+	        null,
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/example' },
+	          'Example'
+	        )
+	      )
+	    );
+	  }
+	
 	  return _react2.default.createElement(
 	    'div',
-	    null,
+	    { className: 'content-block' },
+	    nav,
 	    _react2.default.createElement(
 	      'p',
 	      null,
