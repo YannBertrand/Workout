@@ -7,6 +7,10 @@ html {
     height: 100%;
 }
 
+body {
+    font-family: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
 body, .statusbar-overlay, .navbar, .toolbar, .subnavbar {
     background: #473E6B;
     color: #ffffff;
