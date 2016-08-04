@@ -31,6 +31,14 @@ div.content-block > div.content-block-inner:after {
   background-color: black;
 }
 
+.me {
+  width: 30px;
+  height: 30px;
+  border-radius: 17px;
+  padding: 2px;
+  border-bottom: 1px solid #52A9D9;
+}
+
 .center {
   text-align: center;
 }
