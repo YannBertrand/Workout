@@ -16,6 +16,10 @@ body, .statusbar-overlay, .toolbar, .subnavbar, .navbar, .page {
   color: #ffffff;
 }
 
+body.with-panel-left-cover .statusbar-overlay{
+  background-color: #000000;
+}
+
 div.content-block {
   font-family: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #ffffff;
