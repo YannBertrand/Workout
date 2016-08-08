@@ -27,17 +27,23 @@ function ExampleComponent({ children }) {
   }
 
   return (
-    <div className="content-block">
-      {nav}
-      <p>
-        This is an example page. Refresh the page or copy/paste the url to
-        test out the redirect functionality (this same page should load
-        after the redirect).
-      </p>
-      {children ||
-        <div><Link to="/example/two-deep?field1=foo&field2=bar#boom!">
-          Example two deep with query and hash
-        </Link></div>}
+    <div className="pages">
+      <div data-page="example" className="page">
+        <div className="page-content pull-to-refresh-content">
+          <div className="content-block">
+            {nav}
+            <p>
+              This is an example page. Refresh the page or copy/paste the url to
+              test out the redirect functionality (this same page should load
+              after the redirect).
+            </p>
+            {children ||
+              <div><Link to="/example/two-deep?field1=foo&field2=bar#boom!">
+                Example two deep with query and hash
+              </Link></div>}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
