@@ -16,7 +16,7 @@ body, .statusbar-overlay, .toolbar, .subnavbar, .navbar, .page {
   color: #ffffff;
 }
 
-body.with-panel-left-cover .statusbar-overlay{
+body.with-panel-left-reveal .statusbar-overlay{
   background-color: #000000;
 }
 
