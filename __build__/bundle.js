@@ -27736,13 +27736,7 @@
 	      { 'data-page': 'index', className: 'page' },
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'page-content pull-to-refresh-content' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'pull-to-refresh-layer' },
-	          _react2.default.createElement('div', { className: 'preloader' }),
-	          _react2.default.createElement('div', { className: 'pull-to-refresh-arrow' })
-	        ),
+	        { className: 'page-content' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'navbar no-border' },
