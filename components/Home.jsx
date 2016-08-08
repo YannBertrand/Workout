@@ -10,12 +10,7 @@ function Home() {
   return (
     <div className="pages">
       <div data-page="index" className="page">
-        <div className="page-content pull-to-refresh-content">
-          <div className="pull-to-refresh-layer">
-            <div className="preloader"></div>
-            <div className="pull-to-refresh-arrow"></div>
-          </div>
-
+        <div className="page-content">
           <div className="navbar no-border">
             <div className="navbar-inner">
               <div className="left">
