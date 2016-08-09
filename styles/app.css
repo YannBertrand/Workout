@@ -11,13 +11,19 @@ body {
   font-family: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-body, .statusbar-overlay, .toolbar, .subnavbar, .navbar, .page {
+body, .statusbar-overlay, .toolbar, .subnavbar, .navbar {
   background: #2C2844;
   color: #ffffff;
 }
 
+.page {
+  background-color: #2C2844;
+  background-image: radial-gradient(500px at bottom left, #584A72, #2C2844);
+  /*background: linear-gradient(#2C2844, rgba(88, 74, 114, 1.0)) 0px 44px;*/
+}
+
 body.with-panel-left-reveal .statusbar-overlay{
-  background-color: #000000;
+  background-color: #111111;
 }
 
 div.content-block {
