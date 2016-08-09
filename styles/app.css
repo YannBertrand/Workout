@@ -16,6 +16,11 @@ body, .statusbar-overlay, .toolbar, .subnavbar, .layout-dark .navbar {
   color: #ffffff;
 }
 
+.layout-dark .panel {
+  background-color: #2C2844;
+  background-image: linear-gradient(to right, #2C2844, #2C2844 90%, #2A263C);
+}
+
 .layout-dark a {
   color: #3DAADA;
 }
@@ -24,10 +29,11 @@ body, .statusbar-overlay, .toolbar, .subnavbar, .layout-dark .navbar {
   background-color: #2C2844;
   background-image: radial-gradient(500px at bottom left, #584A72, #2C2844);
   /*background: linear-gradient(#2C2844, rgba(88, 74, 114, 1.0)) 0px 44px;*/
+  border-left: 1px solid #2A263C;
 }
 
 body.with-panel-left-reveal .statusbar-overlay{
-  background-color: #111111;
+  background-color: #2C2844;
 }
 
 .layout-dark .content-block {
