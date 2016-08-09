@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <div className="pages">
-      <div data-page="index" className="page">
+      <div data-page="index" className="page home">
         <div className="page-content">
           <div className="navbar no-border">
             <div className="navbar-inner">
@@ -30,7 +30,10 @@ function Home() {
           </div>
 
           <div className="content-block">
-            <div className="content-block-inner">Here comes another text block additionaly wrapped with "content-block-inner". Praesent nec imperdiet diam. Maecenas vel lectus porttitor, consectetur magna nec, viverra sem. Aliquam sed risus dolor. Morbi tincidunt ut libero id sodales. Integer blandit varius nisi quis consectetur. </div>
+            <div className="content-block-inner">
+              <p>Previous: Mon, May 11</p>
+              <h1>Chest & Triceps</h1>
+            </div>
           </div>
           
           <div className="content-block">

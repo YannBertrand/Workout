@@ -27733,7 +27733,7 @@
 	    { className: 'pages' },
 	    _react2.default.createElement(
 	      'div',
-	      { 'data-page': 'index', className: 'page' },
+	      { 'data-page': 'index', className: 'page home' },
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'page-content' },
@@ -27776,7 +27776,16 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'content-block-inner' },
-	            'Here comes another text block additionaly wrapped with "content-block-inner". Praesent nec imperdiet diam. Maecenas vel lectus porttitor, consectetur magna nec, viverra sem. Aliquam sed risus dolor. Morbi tincidunt ut libero id sodales. Integer blandit varius nisi quis consectetur. '
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Previous: Mon, May 11'
+	            ),
+	            _react2.default.createElement(
+	              'h1',
+	              null,
+	              'Chest & Triceps'
+	            )
 	          )
 	        ),
 	        _react2.default.createElement(
