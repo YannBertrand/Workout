@@ -23,16 +23,95 @@ function Home() {
           </div>
 
           <div className="content-block">
-            <p className="center">
+            <p className="text-align-center">
               Hello Eddie! Things looks alright.<br />
               Are you ready to rock?
             </p>
           </div>
 
-          <div className="content-block">
-            <div className="content-block-inner">
-              <p>Previous: Mon, May 11</p>
-              <h1>Chest & Triceps</h1>
+          <div className="swiper-container swiper-init">
+            <div className="swiper-wrapper">
+              <div className="swiper-slide">
+                <div className="content-block no-space">
+                  <div className="content-block-inner">
+                    <p>Mon, May 11</p>
+                    <h1>Chest & triceps</h1>
+                  </div>
+                </div>
+
+                <div className="swiper-details">
+                  <div className="row">
+                    <div className="col-20">
+                      <div className="item-content">
+                        <div className="item-media"><i className="icon icon-camera"></i></div>
+                        <div className="item-inner">
+                          <div className="item-title-row">
+                            <div className="item-title">344</div>
+                          </div>
+                          <div className="item-subtitle">Calories burned</div>
+                        </div>
+                      </div>
+                      <div className="item-content">
+                        <div className="item-media"><i className="icon icon-camera"></i></div>
+                        <div className="item-inner">
+                          <div className="item-title-row">
+                            <div className="item-title">84</div>
+                          </div>
+                          <div className="item-subtitle">Min spent</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-80 swiper-container swiper-double" data-direction="vertical">
+                      <div className="swiper-wrapper">
+                        <div className="swiper-slide"><span>Slide 1</span></div>
+                        <div className="swiper-slide"><span>Slide 2</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="swiper-slide">
+                <div className="content-block no-space">
+                  <div className="content-block-inner">
+                    <p>Sat, May 10</p>
+                    <h1>Legs</h1>
+                  </div>
+                </div>
+
+                <div className="swiper-details">
+                  <div className="row">
+                    <div className="col-20">
+                      <div className="item-content">
+                        <div className="item-media"><i className="icon icon-camera"></i></div>
+                        <div className="item-inner">
+                          <div className="item-title-row">
+                            <div className="item-title">344</div>
+                          </div>
+                          <div className="item-subtitle">Calories burned</div>
+                        </div>
+                      </div>
+                      <div className="item-content">
+                        <div className="item-media"><i className="icon icon-camera"></i></div>
+                        <div className="item-inner">
+                          <div className="item-title-row">
+                            <div className="item-title">84</div>
+                          </div>
+                          <div className="item-subtitle">Min spent</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-80 swiper-container swiper-double" data-direction="vertical">
+                      <div className="swiper-wrapper">
+                        <div className="swiper-slide"><span>Slide 1</span></div>
+                        <div className="swiper-slide"><span>Slide 2</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           

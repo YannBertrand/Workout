@@ -24,3 +24,12 @@
   text-transform: uppercase;
   font-weight: 500;
 }
+
+.home .swiper-details {
+  background-color: #473E6B;
+}
+
+.home .swiper-details .row .col-20,
+.home .swiper-details .row .col-80 {
+  padding: 15px;
+}

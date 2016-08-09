@@ -99,8 +99,12 @@
 	}), document.getElementById('root'));
 	
 	// Initialize app
-	var myApp = new Framework7({
-	  swipePanel: 'left'
+	var myApp = new Framework7();
+	
+	var swiper = myApp.swiper('.swiper-double', {
+	  spaceBetween: 2,
+	  slidesPerView: 1,
+	  direction: 'vertical'
 	});
 	
 	// If we need to use custom DOM library, let's save it to $$ variable:
@@ -27764,7 +27768,7 @@
 	          { className: 'content-block' },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'center' },
+	            { className: 'text-align-center' },
 	            'Hello Eddie! Things looks alright.',
 	            _react2.default.createElement('br', null),
 	            'Are you ready to rock?'
@@ -27772,19 +27776,237 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'content-block' },
+	          { className: 'swiper-container swiper-init' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'content-block-inner' },
+	            { className: 'swiper-wrapper' },
 	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Previous: Mon, May 11'
+	              'div',
+	              { className: 'swiper-slide' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'content-block no-space' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'content-block-inner' },
+	                  _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    'Mon, May 11'
+	                  ),
+	                  _react2.default.createElement(
+	                    'h1',
+	                    null,
+	                    'Chest & triceps'
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'swiper-details' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'row' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-20' },
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'item-content' },
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-media' },
+	                        _react2.default.createElement('i', { className: 'icon icon-camera' })
+	                      ),
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-inner' },
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-title-row' },
+	                          _react2.default.createElement(
+	                            'div',
+	                            { className: 'item-title' },
+	                            '344'
+	                          )
+	                        ),
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-subtitle' },
+	                          'Calories burned'
+	                        )
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'item-content' },
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-media' },
+	                        _react2.default.createElement('i', { className: 'icon icon-camera' })
+	                      ),
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-inner' },
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-title-row' },
+	                          _react2.default.createElement(
+	                            'div',
+	                            { className: 'item-title' },
+	                            '84'
+	                          )
+	                        ),
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-subtitle' },
+	                          'Min spent'
+	                        )
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-80 swiper-container swiper-double', 'data-direction': 'vertical' },
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'swiper-wrapper' },
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'swiper-slide' },
+	                        _react2.default.createElement(
+	                          'span',
+	                          null,
+	                          'Slide 1'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'swiper-slide' },
+	                        _react2.default.createElement(
+	                          'span',
+	                          null,
+	                          'Slide 2'
+	                        )
+	                      )
+	                    )
+	                  )
+	                )
+	              )
 	            ),
 	            _react2.default.createElement(
-	              'h1',
-	              null,
-	              'Chest & Triceps'
+	              'div',
+	              { className: 'swiper-slide' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'content-block no-space' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'content-block-inner' },
+	                  _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    'Sat, May 10'
+	                  ),
+	                  _react2.default.createElement(
+	                    'h1',
+	                    null,
+	                    'Legs'
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'swiper-details' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'row' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-20' },
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'item-content' },
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-media' },
+	                        _react2.default.createElement('i', { className: 'icon icon-camera' })
+	                      ),
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-inner' },
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-title-row' },
+	                          _react2.default.createElement(
+	                            'div',
+	                            { className: 'item-title' },
+	                            '344'
+	                          )
+	                        ),
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-subtitle' },
+	                          'Calories burned'
+	                        )
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'item-content' },
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-media' },
+	                        _react2.default.createElement('i', { className: 'icon icon-camera' })
+	                      ),
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'item-inner' },
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-title-row' },
+	                          _react2.default.createElement(
+	                            'div',
+	                            { className: 'item-title' },
+	                            '84'
+	                          )
+	                        ),
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'item-subtitle' },
+	                          'Min spent'
+	                        )
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-80 swiper-container swiper-double', 'data-direction': 'vertical' },
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'swiper-wrapper' },
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'swiper-slide' },
+	                        _react2.default.createElement(
+	                          'span',
+	                          null,
+	                          'Slide 1'
+	                        )
+	                      ),
+	                      _react2.default.createElement(
+	                        'div',
+	                        { className: 'swiper-slide' },
+	                        _react2.default.createElement(
+	                          'span',
+	                          null,
+	                          'Slide 2'
+	                        )
+	                      )
+	                    )
+	                  )
+	                )
+	              )
 	            )
 	          )
 	        ),

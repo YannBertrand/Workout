@@ -32,8 +32,12 @@ render(
 );
 
 // Initialize app
-var myApp = new Framework7({
-  swipePanel: 'left'
+var myApp = new Framework7();
+
+var swiper = myApp.swiper('.swiper-double', {
+  spaceBetween: 2,
+  slidesPerView: 1,
+  direction: 'vertical'
 });
 
 // If we need to use custom DOM library, let's save it to $$ variable:
