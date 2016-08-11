@@ -68,6 +68,6 @@ body.with-panel-left-reveal .statusbar-overlay{
   margin: 0px;
 }
 
-.row .col-20 {
+.row .border-right {
   border-right: 1px solid #2A263C;
 }

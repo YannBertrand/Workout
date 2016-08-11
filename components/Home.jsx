@@ -41,7 +41,7 @@ function Home() {
 
                 <div className="swiper-details">
                   <div className="row">
-                    <div className="col-20">
+                    <div className="col-45 border-right">
                       <div className="item-content">
                         <div className="item-media"><i className="icon icon-camera"></i></div>
                         <div className="item-inner">
@@ -62,7 +62,7 @@ function Home() {
                       </div>
                     </div>
 
-                    <div className="col-80 swiper-container swiper-double" data-direction="vertical">
+                    <div className="col-55 swiper-container swiper-double" data-direction="vertical">
                       <div className="swiper-wrapper">
                         <div className="swiper-slide"><span>Slide 1</span></div>
                         <div className="swiper-slide"><span>Slide 2</span></div>

@@ -27809,7 +27809,7 @@
 	                  { className: 'row' },
 	                  _react2.default.createElement(
 	                    'div',
-	                    { className: 'col-20' },
+	                    { className: 'col-45 border-right' },
 	                    _react2.default.createElement(
 	                      'div',
 	                      { className: 'item-content' },
@@ -27867,7 +27867,7 @@
 	                  ),
 	                  _react2.default.createElement(
 	                    'div',
-	                    { className: 'col-80 swiper-container swiper-double', 'data-direction': 'vertical' },
+	                    { className: 'col-55 swiper-container swiper-double', 'data-direction': 'vertical' },
 	                    _react2.default.createElement(
 	                      'div',
 	                      { className: 'swiper-wrapper' },
