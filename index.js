@@ -34,7 +34,7 @@ render(
 // Initialize app
 var myApp = new Framework7();
 
-var swiper = myApp.swiper('.swiper-double', {
+var swiper = myApp.swiper('.swiper-vertical', {
   spaceBetween: 2,
   slidesPerView: 1,
   direction: 'vertical'

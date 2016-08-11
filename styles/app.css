@@ -71,3 +71,11 @@ body.with-panel-left-reveal .statusbar-overlay{
 .row .border-right {
   border-right: 1px solid #2A263C;
 }
+
+.row .border-left {
+  border-left: 1px solid #2A263C;
+}
+
+.layout-dark .list-block ul {
+  background: transparent;
+}

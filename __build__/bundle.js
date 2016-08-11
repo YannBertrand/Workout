@@ -101,7 +101,7 @@
 	// Initialize app
 	var myApp = new Framework7();
 	
-	var swiper = myApp.swiper('.swiper-double', {
+	var swiper = myApp.swiper('.swiper-vertical', {
 	  spaceBetween: 2,
 	  slidesPerView: 1,
 	  direction: 'vertical'
@@ -27809,7 +27809,7 @@
 	                  { className: 'row' },
 	                  _react2.default.createElement(
 	                    'div',
-	                    { className: 'col-45 border-right' },
+	                    { className: 'col-45 workout-info' },
 	                    _react2.default.createElement(
 	                      'div',
 	                      { className: 'item-content' },
@@ -27867,7 +27867,7 @@
 	                  ),
 	                  _react2.default.createElement(
 	                    'div',
-	                    { className: 'col-55 swiper-container swiper-double', 'data-direction': 'vertical' },
+	                    { className: 'col-55 border-left swiper-container swiper-vertical', 'data-direction': 'vertical' },
 	                    _react2.default.createElement(
 	                      'div',
 	                      { className: 'swiper-wrapper' },
@@ -27875,19 +27875,131 @@
 	                        'div',
 	                        { className: 'swiper-slide' },
 	                        _react2.default.createElement(
-	                          'span',
-	                          null,
-	                          'Slide 1'
+	                          'div',
+	                          { className: 'content-block-title' },
+	                          'Bench Press'
+	                        ),
+	                        _react2.default.createElement(
+	                          'div',
+	                          { className: 'list-block' },
+	                          _react2.default.createElement(
+	                            'ul',
+	                            null,
+	                            _react2.default.createElement(
+	                              'li',
+	                              { className: 'item-content' },
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-media' },
+	                                _react2.default.createElement(
+	                                  'span',
+	                                  { className: 'badge color-green' },
+	                                  '1'
+	                                )
+	                              ),
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-inner' },
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-title' },
+	                                  _react2.default.createElement('div', { 'data-progress': '10', className: 'progressbar color-green' })
+	                                ),
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-after' },
+	                                  '100kg 10'
+	                                )
+	                              )
+	                            ),
+	                            _react2.default.createElement(
+	                              'li',
+	                              { className: 'item-content' },
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-media' },
+	                                _react2.default.createElement(
+	                                  'span',
+	                                  { className: 'badge color-green' },
+	                                  '2'
+	                                )
+	                              ),
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-inner' },
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-title' },
+	                                  _react2.default.createElement('span', { 'data-progress': '100', className: 'progressbar color-green' })
+	                                ),
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-after' },
+	                                  '100kg 10'
+	                                )
+	                              )
+	                            ),
+	                            _react2.default.createElement(
+	                              'li',
+	                              { className: 'item-content' },
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-media' },
+	                                _react2.default.createElement(
+	                                  'span',
+	                                  { className: 'badge color-orange' },
+	                                  '3'
+	                                )
+	                              ),
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-inner' },
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-title' },
+	                                  _react2.default.createElement('span', { 'data-progress': '80', className: 'progressbar color-orange' })
+	                                ),
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-after' },
+	                                  '100kg 8'
+	                                )
+	                              )
+	                            ),
+	                            _react2.default.createElement(
+	                              'li',
+	                              { className: 'item-content' },
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-media' },
+	                                _react2.default.createElement(
+	                                  'span',
+	                                  { className: 'badge color-red' },
+	                                  '4'
+	                                )
+	                              ),
+	                              _react2.default.createElement(
+	                                'div',
+	                                { className: 'item-inner' },
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-title' },
+	                                  _react2.default.createElement('span', { 'data-progress': '40', className: 'progressbar color-red' })
+	                                ),
+	                                _react2.default.createElement(
+	                                  'div',
+	                                  { className: 'item-after' },
+	                                  '100kg 4'
+	                                )
+	                              )
+	                            )
+	                          )
 	                        )
 	                      ),
 	                      _react2.default.createElement(
 	                        'div',
 	                        { className: 'swiper-slide' },
-	                        _react2.default.createElement(
-	                          'span',
-	                          null,
-	                          'Slide 2'
-	                        )
+	                        'Slide 2'
 	                      )
 	                    )
 	                  )

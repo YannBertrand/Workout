@@ -29,6 +29,21 @@
   background-color: #473E6B;
 }
 
+.home .swiper-details .workout-info, .home .swiper-details .swiper-container {
+  padding: 7px;
+}
+
+.home .swiper-details .swiper-container .content-block-title {
+  margin-top: 10px;
+  text-transform: none;
+  color: #B9ACE2;
+}
+
+.home .swiper-details .swiper-container .list-block {
+  margin: 0px;
+  font-size: 0.9em;
+}
+
 .home .swiper-details .row .col-20,
 .home .swiper-details .row .col-80 {
   padding: 15px;

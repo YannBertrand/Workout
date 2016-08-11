@@ -41,7 +41,7 @@ function Home() {
 
                 <div className="swiper-details">
                   <div className="row">
-                    <div className="col-45 border-right">
+                    <div className="col-45 workout-info">
                       <div className="item-content">
                         <div className="item-media"><i className="icon icon-camera"></i></div>
                         <div className="item-inner">
@@ -62,10 +62,46 @@ function Home() {
                       </div>
                     </div>
 
-                    <div className="col-55 swiper-container swiper-double" data-direction="vertical">
+                    <div className="col-55 border-left swiper-container swiper-vertical" data-direction="vertical">
                       <div className="swiper-wrapper">
-                        <div className="swiper-slide"><span>Slide 1</span></div>
-                        <div className="swiper-slide"><span>Slide 2</span></div>
+                        <div className="swiper-slide">
+                          <div className="content-block-title">Bench Press</div>
+                          <div className="list-block">
+                            <ul>
+                              <li className="item-content">
+                                <div className="item-media"><span className="badge color-green">1</span></div>
+                                <div className="item-inner">
+                                  <div className="item-title"><div data-progress="10" className="progressbar color-green"></div></div>
+                                  <div className="item-after">100kg 10</div>
+                                </div>
+                              </li>
+                              <li className="item-content">
+                                <div className="item-media"><span className="badge color-green">2</span></div>
+                                <div className="item-inner">
+                                  <div className="item-title"><span data-progress="100" className="progressbar color-green"></span></div>
+                                  <div className="item-after">100kg 10</div>
+                                </div>
+                              </li>
+                              <li className="item-content">
+                                <div className="item-media"><span className="badge color-orange">3</span></div>
+                                <div className="item-inner">
+                                  <div className="item-title"><span data-progress="80" className="progressbar color-orange"></span></div>
+                                  <div className="item-after">100kg 8</div>
+                                </div>
+                              </li>
+                              <li className="item-content">
+                                <div className="item-media"><span className="badge color-red">4</span></div>
+                                <div className="item-inner">
+                                  <div className="item-title"><span data-progress="40" className="progressbar color-red"></span></div>
+                                  <div className="item-after">100kg 4</div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="swiper-slide">
+                          Slide 2
+                        </div>
                       </div>
                     </div>
                   </div>
